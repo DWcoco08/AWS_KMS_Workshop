@@ -45,39 +45,6 @@ Parallel content structure in Vietnamese for local learners.
 - Basic understanding of cloud computing
 - Familiarity with AWS Console
 
-## 🚀 Local Development
-
-### Requirements
-
-- [Hugo Extended](https://gohugo.io/installation/) v0.150.0+
-- Git
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/DWcoco08/AWS_KMS_Workshop.git
-cd AWS_KMS_Workshop
-
-# Install theme submodule
-git submodule update --init --recursive
-
-# Run local development server
-hugo serve
-```
-
-Access the workshop at `http://localhost:1313/`
-
-## 🏗️ Build
-
-```bash
-# Build static site
-hugo
-
-# Build with drafts
-hugo -D
-```
-
 ## 📁 Project Structure
 
 ```
