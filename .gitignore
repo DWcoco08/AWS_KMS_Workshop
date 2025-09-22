@@ -1,0 +1,24 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hugo lock file
+.hugo_build.lock
+
+# Claude
+.claude/
+
+# Temporary files
+*.tmp
+*.bak
+~*
