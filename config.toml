@@ -1,6 +1,6 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
-baseURL = "/"
+baseURL = "https://dwcoco08.github.io/AWS_KMS_Workshop/"
 canonifyURLs = false
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
