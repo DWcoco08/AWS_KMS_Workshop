@@ -32,19 +32,20 @@ If you have feedback about the workshop:
 - Contribute improvements via pull requests
 - Share experiences with the community
 
-## Conclusion
+## Wrap Up
 
-🎉 **Congratulations!** You have completed the AWS KMS Workshop!
+Done. First AWS KMS workshop completed.
 
-You now have foundational knowledge about:
+Honestly, I didn't really get what encryption and key management were about at first. Thought it was just about encrypting files. But after going through this, it's way more complex - creating keys, setting permissions, key rotation, even auditing who uses your keys and when.
 
-- How to protect data with encryption
-- Managing encryption keys securely
-- Monitoring and auditing key usage
-- Implementing security best practices
+What I learned:
+- Encryption isn't as hard as I thought, AWS handles the hard parts
+- KMS and S3 work pretty smoothly together, just check a few boxes and your data is encrypted
+- CloudTrail is pretty cool, you can see who's doing what with your keys
+- Regular key rotation actually matters, can't just set and forget everything
 
-Apply what you've learned to real-world environments and always prioritize security in every solution!
+Still fuzzy on some stuff, especially the policy and IAM parts. But that's fine, it'll click eventually. At least now I know how to protect data in the cloud, not leaving everything exposed like before.
 
 ---
 
-**Thank you for participating! 🙏**
+Thanks if you made it this far too. Good luck with your next labs!
