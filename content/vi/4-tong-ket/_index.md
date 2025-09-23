@@ -32,19 +32,20 @@ Nếu bạn có feedback về workshop:
 - Đóng góp improvements via pull requests
 - Chia sẻ kinh nghiệm với community
 
-## Kết luận
+## Kết
 
-🎉 **Chúc mừng!** Bạn đã hoàn thành AWS KMS Workshop!
+Xong rồi. Workshop đầu tiên về AWS KMS.
 
-Bạn giờ đã có kiến thức nền tảng về:
+Nói thật là ban đầu mình cũng không hiểu encryption với key management này nó làm gì. Cứ nghĩ đơn giản là mã hóa file thôi. Nhưng làm xong mới thấy nó phức tạp hơn nhiều - từ việc tạo key, phân quyền, rotate key, đến cả việc audit xem ai dùng key lúc nào.
 
-- Cách bảo vệ dữ liệu với encryption
-- Quản lý encryption keys một cách an toàn
-- Monitor và audit key usage
-- Implement security best practices
+Mấy cái học được:
+- Encryption thực ra không khó như mình tưởng, AWS đã lo hết phần khó rồi
+- KMS với S3 kết hợp khá mượt, chỉ cần tick vài cái là data được mã hóa
+- CloudTrail này hay phết, biết được ai làm gì với key của mình
+- Rotate key định kỳ quan trọng thật, chứ không phải cái gì cũng set rồi quên được
 
-Hãy áp dụng những gì đã học vào môi trường thực tế và luôn prioritize security trong mọi solution!
+Còn nhiều thứ chưa rõ lắm, nhất là phần policy với IAM. Nhưng thôi, từ từ rồi sẽ quen. Ít nhất giờ biết cách bảo vệ data trên cloud rồi, không còn để trần như trước nữa.
 
 ---
 
-**Thank you for participating! 🙏**
+Cảm ơn nếu bạn cũng theo dõi đến đây. Chúc may mắn với các lab tiếp theo!
